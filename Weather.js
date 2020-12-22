@@ -20,7 +20,7 @@ function weatherInfo(){
 function cityDetails(details){
     console.log(details)
 
-    const description = `<p>${search.value} has a temperature of ${details.main.temp}°C, it has a wind speed of ${details.wind.speed} m/s
+    const description = `<p>${search.value} has a temperature of ${details.main.temp}°C and a wind speed of ${details.wind.speed} m/s
     <br>
     weather description: ${details.weather[0].description}
     </p>`
